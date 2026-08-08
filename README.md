@@ -2,6 +2,9 @@
 
 mcp-name: io.github.robsannaa/storemetrics
 
+[![storemetrics-mcp MCP server](https://glama.ai/mcp/servers/robsannaa/storemetrics-mcp/badges/card.svg)](https://glama.ai/mcp/servers/robsannaa/storemetrics-mcp)
+
+
 Real-time e-commerce analytics your AI agent can adopt end-to-end: register a website, install tracking, and query visitors, revenue, funnels, and live activity — all without a human account.
 
 - **Endpoint (remote, streamable HTTP):** `https://storemetrics.pl/api/mcp`
