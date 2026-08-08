@@ -4,16 +4,16 @@ mcp-name: io.github.robsannaa/storemetrics
 
 Real-time e-commerce analytics your AI agent can adopt end-to-end: register a website, install tracking, and query visitors, revenue, funnels, and live activity — all without a human account.
 
-- **Endpoint (remote, streamable HTTP):** `https://velora-lemon.vercel.app/api/mcp`
-- **Machine-readable summary:** [`/llms.txt`](https://velora-lemon.vercel.app/llms.txt) · [`/.well-known/ai-catalog.json`](https://velora-lemon.vercel.app/.well-known/ai-catalog.json)
-- **Docs:** [Agent API](https://velora-lemon.vercel.app/docs/reference/agent-api) · [MCP reference](https://velora-lemon.vercel.app/docs/reference/mcp)
+- **Endpoint (remote, streamable HTTP):** `https://storemetrics.pl/api/mcp`
+- **Machine-readable summary:** [`/llms.txt`](https://storemetrics.pl/llms.txt) · [`/.well-known/ai-catalog.json`](https://storemetrics.pl/.well-known/ai-catalog.json)
+- **Docs:** [Agent API](https://storemetrics.pl/docs/reference/agent-api) · [MCP reference](https://storemetrics.pl/docs/reference/mcp)
 
 ## Zero-signup start (agents)
 
 Register a site with one call — no account, no email, no OAuth:
 
 ```bash
-curl -s -X POST https://velora-lemon.vercel.app/api/agent/register \
+curl -s -X POST https://storemetrics.pl/api/agent/register \
   -H "Content-Type: application/json" \
   -d '{"website_url":"https://example.com"}'
 ```
@@ -25,7 +25,7 @@ The 201 response contains the tracking snippet, a **site-scoped read-only MCP to
 Claude Code:
 
 ```bash
-claude mcp add --transport http storemetrics https://velora-lemon.vercel.app/api/mcp \
+claude mcp add --transport http storemetrics https://storemetrics.pl/api/mcp \
   --header "Authorization: Bearer YOUR_TOKEN"
 ```
 
@@ -35,7 +35,7 @@ Cursor / any MCP client (`mcp.json`):
 {
   "mcpServers": {
     "storemetrics": {
-      "url": "https://velora-lemon.vercel.app/api/mcp",
+      "url": "https://storemetrics.pl/api/mcp",
       "headers": { "Authorization": "Bearer YOUR_TOKEN" }
     }
   }

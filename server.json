@@ -9,7 +9,7 @@
       "registryType": "remote",
       "identifier": "io.github.robsannaa/storemetrics",
       "version": "1.0.0",
-      "transport": { "type": "http", "url": "https://velora-lemon.vercel.app/api/mcp" }
+      "transport": { "type": "http", "url": "https://storemetrics.pl/api/mcp" }
     }
   ]
 }
